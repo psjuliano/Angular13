@@ -11,12 +11,6 @@ export class ListRenderComponent {
 
   animals: Animal[] = [ ];
 
-
-  animal: Animal = {
-    name: 'Teste',
-    type: 'alguma coisa',
-    age: 10,
-  }
   animalsDetails = '';
   constructor(private listService: ListService) {
     this.getAnimals()
